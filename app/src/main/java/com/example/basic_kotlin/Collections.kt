@@ -55,7 +55,7 @@ fun ContohSet() {
     println(readOnlyAbjad)
 
     // Set Mutable
-    val shape: MutableSet<string> = mutableSetOf ("Circle", "Square", "Triangle")
+    val shape: MutableSet<String> = mutableSetOf ("Circle", "Square", "Triangle")
     println(shape)
 
 }
