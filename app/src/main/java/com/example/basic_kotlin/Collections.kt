@@ -1,5 +1,11 @@
 package com.example.basic_kotlin
 
+// List adalah kumpulan data yang disusun secara berurutan dari
+// List bersifat ordered, artinya data yang dimasukkan akan memiliki posisi sesuai urutan
+// List bersifat mutable dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+// List Read-Only menggunakan listOf
+// List Mutable menggunakan mutableListOf
+
 fun ContohList() {
     println("=== List ===")
     //List Read-Only
@@ -32,6 +38,16 @@ fun ContohList() {
     // List Read-Only
     val shapesLocked: List<String> = shape
     println(shapesLocked)
+}
+
+// Set adalah Kumpulan data yang tidak memiliki posisi atau urutan dan hanya menyimpan data unik ( tidak ada duplikasi )
+// Set bersifat unordered, artinya data yang dimasukkan tidak memiliki posisi tertentu
+// Set bersifat mutable dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+// Set Read-Only menggunakan setOf
+// Set Mutable menggunakan mutableSetOf
+
+fun ContohSet() {
+
 }
 
 fun main(){
