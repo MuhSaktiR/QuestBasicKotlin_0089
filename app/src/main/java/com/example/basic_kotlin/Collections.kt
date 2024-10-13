@@ -71,6 +71,10 @@ fun ContohSet() {
     println(shapesLocked)
 }
 
+fun ContohMap(){
+
+}
+
 fun main(){
     println(ContohList())
 }
